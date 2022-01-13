@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 80px;
+    border: 1px solid black;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 20px;
+}
+
+#upperDisplay {
+    font-size: 30px;
+}
+
+#lowerDisplay {
+    font-size: 60px;
+}
+
+.buttons {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+
+
+.footer {
+    margin-top: 900px;
+}
